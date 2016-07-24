@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.azaqo.sahabatbunda.MainMenu.IbuHamil.MenuIbuHamilActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_datakehamilan"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_hasil_pemeriksaan"
+            android:id="@+id/imageButton"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Data Kehamilan"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_keluhan"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_keluhan"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Keluhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_tips"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_tips"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Tips dan Pantangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_persiapan"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_persalinan"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Persiapan persalinan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_perkembanganjanin"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_janin"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Perkembangan Janin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_tandabahaya"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_tanda_bahaya"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Tanda Bahaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_tanyabidan"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+    <ImageView
+        android:background="@drawable/button_tanya_bidan"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="right" />
+    <TextView
+        android:text="Tanya Bidan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

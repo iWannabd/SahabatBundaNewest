@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sahabat Bunda</string>
+    <string name="login_failed">Password atau username salah</string>
+    <string name="data_not_valid">Data tidak lengkap</string>
+    <string name="user_created">Anda terdaftar</string>
+    <string name="logout">Keluar</string>
+    <string name="no_examination">Belum ada pemeriksaan</string>
+</resources>

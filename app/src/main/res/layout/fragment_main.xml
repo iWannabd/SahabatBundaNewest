@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.azaqo.sahabatbunda.MainMenu.MainActivity$PlaceholderFragment">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_ibuhamil"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_ibu_hamil"
+            android:id="@+id/imageButton"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Ibu Hamil"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_ibunifas"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_ibu_nifas"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Ibu Nifas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_kb"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:background="@drawable/button_ibu_kabe"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right" />
+        <TextView
+            android:text="Keluarga Berencana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            />
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
